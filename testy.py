@@ -21,7 +21,8 @@ def ary():
             print("length of x: {}".format(len(x)))
             y.append(x[i])
             popup(y)
-            threading.Timer(3,ary).start()
+            input("continue?\n")
+            #threading.Timer(3,popup).start()
             i+=1
             print("i after append: {}".format(i))
         except:
