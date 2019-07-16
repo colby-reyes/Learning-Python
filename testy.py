@@ -4,5 +4,6 @@ y = list()
 
 for i in range(len(x)):
     y.append(x[i])
+    print("array so far: {}".format(y))
 
 print("Done!")
